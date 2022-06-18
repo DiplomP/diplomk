@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/diplomk/static/css/main.4aa25c39.css",
+    "main.js": "/diplomk/static/js/main.139d1260.js",
+    "static/media/Безымянный1.png": "/diplomk/static/media/Безымянный1.9e705c6af926bd764ce9.png",
+    "index.html": "/diplomk/index.html",
+    "main.4aa25c39.css.map": "/diplomk/static/css/main.4aa25c39.css.map",
+    "main.139d1260.js.map": "/diplomk/static/js/main.139d1260.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4aa25c39.css",
+    "static/js/main.139d1260.js"
+  ]
+}
