@@ -1,0 +1,489 @@
+.sight-container{
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: 90% 10%;
+	margin-top: 2%;
+	height: 100%;
+}
+
+.sight-container-all{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.sight1-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 30px;
+}
+
+.sight-text{
+	margin-top: 10%;
+	margin-top: 5px;
+	text-align: center;
+	justify-self: center;
+	align-self: center;
+	font-size: 135%;
+	overflow: scroll;
+	max-height: 600px;
+	border: 2px solid rgba(24, 206, 0, 0.993);
+	border-radius: 5px;
+}
+
+.sight-image{
+	align-self: center;
+	justify-self: center;
+	height: 100%;
+	width: 60%;
+}
+
+.sight-button-hidden{
+	visibility: hidden;
+}
+
+.sight-button-1{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	align-self: center;
+	justify-self: center;
+	text-decoration: none;
+	border: 0px solid;
+	background-color: rgba(24, 206, 0, 0.993);
+	color: white;
+	border-radius: 5px;
+	padding: 20px;
+	cursor: pointer;
+	transition: 0.72s;
+}
+
+.sight-button-2{
+	align-self: center;
+	justify-self: center;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	text-decoration: none;
+	border: 0px solid;
+	background-color: rgba(24, 206, 0, 0.993);
+	color: white;
+	border-radius: 5px;
+	padding: 20px;
+	cursor: pointer;
+	transition: 0.72s;
+}
+
+.sight-button-1:hover{
+	transform: scale(1.04);
+	transition: 0.72s;
+}
+
+.sight-button-2:hover{
+	transform: scale(1.04);
+	transition: 0.72s;
+}
+
+.sight-button-link{
+	display: grid;
+	text-decoration: none;
+	align-self: center;
+	font-size: 120%;
+	color: rgb(255, 255, 255);
+}
+
+.wrapper-7 {
+	height: 600px;
+	position: relative;
+	width: 700px;
+}
+
+.slider-7 {
+	background-color: rgb(10, 250, 230);
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.wrapper-7 > input {
+	display: none;
+}
+
+.slides-7 {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+}
+
+.slide1-7 { 
+	background: url("https://pbs.twimg.com/media/DH7yAwuXoAIxYSF.jpg") center no-repeat; 
+}
+.slide2-7 {
+	 background: url("https://img.the-village-kz.com/the-village.com.kz/post-og_image/_pYlz7HGbBaE_moxlrG1hA.png") center no-repeat; 
+}
+.slide3-7 {
+	 background: url("https://avatars.mds.yandex.net/get-zen_doc/3714606/pub_5faa9f781261131085a2b06a_5fab02a1ea8df61cb62f1552/scale_1200") center no-repeat; 
+}
+.slide4-7 {
+	 background: url("https://avatars.mds.yandex.net/get-zen_doc/3915824/pub_5f5926a2efb9584a827f9124_5f592720254de31436a3a6eb/scale_1200") center no-repeat; 
+}
+.slide5-7 {
+	 background: url("https://www.yuriybezsonov.com/gallery/_data/i/galleries/travel/cis/kazakhstan/charyn-canyon/7689-charyn-canyon-me.jpg") center no-repeat; 
+}
+
+.wrapper-7 .controls-7 {
+	left: 50%;
+	margin-left: -15%;
+	position: absolute;
+}
+
+.wrapper-7 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-7 label:after {
+	border: 2px solid #ddd;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-7 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.wrapper-7 label:hover, 
+#slide1-7:checked ~ .controls-7 label:nth-of-type(1),
+#slide2-7:checked ~ .controls-7 label:nth-of-type(2),
+#slide3-7:checked ~ .controls-7 label:nth-of-type(3),
+#slide4-7:checked ~ .controls-7 label:nth-of-type(4),
+#slide5-7:checked ~ .controls-7 label:nth-of-type(5) {
+	background: rgb(3, 65, 236);
+}
+
+.slides-7 {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slide1-7:checked ~ .slider-7 > .slide1-7,
+#slide2-7:checked ~ .slider-7 > .slide2-7,
+#slide3-7:checked ~ .slider-7 > .slide3-7,
+#slide4-7:checked ~ .slider-7 > .slide4-7,
+#slide5-7:checked ~ .slider-7 > .slide5-7 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+.wrapper-7-1 {
+	height: 600px;
+	position: relative;
+	width: 700px;
+}
+
+.slider-7-1 {
+	background-color: rgb(10, 250, 230);
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.wrapper-7-1 > input {
+	display: none;
+}
+
+.slides-7-1 {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+}
+
+.slide1-7-1 { 
+	background: url("https://wikiway.com/upload/hl-photo/a19/ade/bolshoe-almatinskoe-ozero_52.jpg") center no-repeat; 
+}
+.slide2-7-1 {
+	 background: url("https://wikiway.com/upload/hl-photo/122/475/bolshoe-almatinskoe-ozero_50.jpg") center no-repeat; 
+}
+.slide3-7-1 {
+	 background: url("https://wikiway.com/upload/hl-photo/6ef/3b0/bolshoe-almatinskoe-ozero_49.jpg") center no-repeat; 
+}
+.slide4-7-1 {
+	 background: url("https://wikiway.com/upload/hl-photo/d55/7c7/bolshoe-almatinskoe-ozero_48.jpg") center no-repeat; 
+}
+.slide5-7-1 {
+	 background: url("https://wikiway.com/upload/hl-photo/596/d99/bolshoe-almatinskoe-ozero_46.jpg") center no-repeat; 
+}
+
+.wrapper-7-1 .controls-7-1 {
+	left: 50%;
+	margin-left: -15%;
+	position: absolute;
+}
+
+.wrapper-7-1 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-7-1 label:after {
+	border: 2px solid #ddd;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-7-1 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.wrapper-7-1 label:hover, 
+#slide1-7-1:checked ~ .controls-7-1 label:nth-of-type(1),
+#slide2-7-1:checked ~ .controls-7-1 label:nth-of-type(2),
+#slide3-7-1:checked ~ .controls-7-1 label:nth-of-type(3),
+#slide4-7-1:checked ~ .controls-7-1 label:nth-of-type(4),
+#slide5-7-1:checked ~ .controls-7-1 label:nth-of-type(5) {
+	background: rgb(3, 65, 236);
+}
+
+.slides-7-1 {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slide1-7-1:checked ~ .slider-7-1 > .slide1-7-1,
+#slide2-7-1:checked ~ .slider-7-1 > .slide2-7-1,
+#slide3-7-1:checked ~ .slider-7-1 > .slide3-7-1,
+#slide4-7-1:checked ~ .slider-7-1 > .slide4-7-1,
+#slide5-7-1:checked ~ .slider-7-1 > .slide5-7-1 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+.wrapper-7-2 {
+	height: 600px;
+	position: relative;
+	width: 700px;
+}
+
+.slider-7-2 {
+	background-color: rgb(10, 250, 230);
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.wrapper-7-2 > input {
+	display: none;
+}
+
+.slides-7-2 {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+}
+
+.slide1-7-2 { 
+	background: url("https://wikiway.com/upload/hl-photo/a01/4f7/gory-tyan-shan_152.jpg") center no-repeat; 
+}
+.slide2-7-2 {
+	 background: url("https://wikiway.com/upload/hl-photo/f2e/4da/gory-tyan-shan_151.jpg") center no-repeat; 
+}
+.slide3-7-2 {
+	 background: url("https://wikiway.com/upload/hl-photo/9e4/d17/gory-tyan-shan_150.jpg") center no-repeat; 
+}
+.slide4-7-2 {
+	 background: url("https://wikiway.com/upload/hl-photo/0da/db2/gory-tyan-shan_149.jpg") center no-repeat; 
+}
+.slide5-7-2 {
+	 background: url("https://wikiway.com/upload/hl-photo/4f6/630/gory-tyan-shan_148.jpg") center no-repeat; 
+}
+
+.wrapper-7-2 .controls-7-2 {
+	left: 50%;
+	margin-left: -15%;
+	position: absolute;
+}
+
+.wrapper-7-2 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-7-2 label:after {
+	border: 2px solid #ddd;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-7-2 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.wrapper-7-1 label:hover, 
+#slide1-7-2:checked ~ .controls-7-2 label:nth-of-type(1),
+#slide2-7-2:checked ~ .controls-7-2 label:nth-of-type(2),
+#slide3-7-2:checked ~ .controls-7-2 label:nth-of-type(3),
+#slide4-7-2:checked ~ .controls-7-2 label:nth-of-type(4),
+#slide5-7-2:checked ~ .controls-7-2 label:nth-of-type(5) {
+	background: rgb(3, 65, 236);
+}
+
+.slides-7-2 {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slide1-7-2:checked ~ .slider-7-2 > .slide1-7-2,
+#slide2-7-2:checked ~ .slider-7-2 > .slide2-7-2,
+#slide3-7-2:checked ~ .slider-7-2 > .slide3-7-2,
+#slide4-7-2:checked ~ .slider-7-2 > .slide4-7-2,
+#slide5-7-2:checked ~ .slider-7-2 > .slide5-7-2 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}

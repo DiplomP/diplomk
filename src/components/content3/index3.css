@@ -1,0 +1,145 @@
+.content-13 {
+	color: #000;
+	width: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.5fr 1fr 1fr;
+}
+
+.content-span{
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 2%;
+	color: blueviolet;
+}
+
+.text-btn1{
+	justify-self: center;
+	padding: 30px;
+	transition: 0.72s;
+	border-radius: 20px;
+	background-color: rgba(212, 202, 212, 0.61);
+	color: blueviolet;
+}
+.text-btn2{
+	justify-self: center;
+	padding: 30px;
+	transition: 0.72s;
+	border-radius: 20px;
+	background-color: rgba(212, 202, 212, 0.61);
+	color: blueviolet;
+}
+.text-btn3{
+	justify-self: center;
+	padding: 30px;
+	transition: 0.72s;
+	border-radius: 20px;
+	background-color: rgba(212, 202, 212, 0.61);
+	color: blueviolet;
+}
+.text-btn4{
+	justify-self: center;
+	padding: 30px;
+	transition: 0.72s;
+	border-radius: 20px;
+	background-color: rgba(212, 202, 212, 0.61);
+	color: blueviolet;
+}
+
+.content-west {
+	background: url("https://avatars.mds.yandex.net/i?id=52d8defa86b3bc0a5f8509671c40e2e5_l-5233918-images-thumbs&n=13") center no-repeat;
+	display: grid;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	align-items: center;
+	opacity: 0.7;
+	width: 97%;
+	height: 97%;
+	background-color: white;
+	cursor: pointer;
+	transition: 0.72s;
+}
+
+.content-west-2 {
+	background: url("https://visiteast.kz/assets/files/konnye%20tury/tainyvekov.jpg") center no-repeat;
+	display: grid;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	align-items: center;
+	opacity: 0.7;
+	width: 97%;
+	height: 97%;
+	cursor: pointer;
+	transition: 0.72s;
+}
+
+.content-west-3 {
+	background: url("https://vsegda-pomnim.com/uploads/posts/2022-04/1648766052_30-vsegda-pomnim-com-p-ozero-borovoe-kazakhstan-foto-31.jpg") center no-repeat;
+	display: grid;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	opacity: 0.7;
+	align-items: center;
+	width: 97%;
+	height: 97%;
+	cursor: pointer;
+	transition: 0.72s;
+}
+
+.content-west-4 {
+	background: url("https://mail.kz/upload/media/172f9e2962c5a0c800851cc3c2d5314b.jpg") center no-repeat;
+	display: grid;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	opacity: 0.7;
+	align-items: center;
+	width: 97%;
+	height: 97%;
+	cursor: pointer;
+	transition: 0.72s;
+}
+
+.text-content-3{
+	text-transform: none;
+	text-decoration: none;
+	color: rgba(24, 206, 0, 0.993);
+	font-size: 150%;
+	font-weight: 1000;
+}
+
+.text-content-3:hover{
+	text-transform: none;
+	text-decoration: none;
+	color: rgba(24, 206, 0, 0.993);
+	font-size: 150%;
+	font-weight: 1000;
+}
+
+.content-west:hover{
+	opacity: 1;
+	transition: 0.72s;
+}
+
+.content-west-2:hover{
+	opacity: 1;
+	transition: 0.72s;
+}
+
+.content-west-3:hover{
+	opacity: 1;
+	transition: 0.72s;
+}
+
+.content-west-4:hover{
+	opacity: 1;
+	transition: 0.72s;
+}

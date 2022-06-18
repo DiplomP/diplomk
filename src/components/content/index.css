@@ -1,0 +1,157 @@
+
+
+.bg{
+	background: url("../Безымянный1.png") center no-repeat;
+	
+}
+
+.kartinka{
+	display:block;
+	margin: auto;
+	margin-top: 10%;
+	width: 800px;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+.links-span-1{
+	text-decoration: none;
+	position: fixed;
+	top: 430px;
+	font-size: 18px;
+	margin-left: 500px;
+	color: white;
+}
+
+.links-span-2{
+	text-decoration: none;
+	position: fixed;
+	top: 400px;
+	font-size: 18px;
+	margin-left: 700px;
+	color: white;
+}
+
+.links-span-3{
+	text-decoration: none;
+	position: fixed;
+	top: 630px;
+	font-size: 18px;
+	margin-left: 1100px;
+	color: white;
+}
+
+.links-span-4{
+	text-decoration: none;
+	position: fixed;
+	top: 400px;
+	font-size: 18px;
+	margin-left: 1320px;
+	color: white;
+}
+
+.links-span-5{
+	text-decoration: none;
+	position: fixed;
+	top: 350px;
+	font-size: 18px;
+	margin-left: 1270px;
+	color: white;
+}
+
+.links-span-6{
+	text-decoration: none;
+	position: fixed;
+	top: 400px;
+	font-size: 18px;
+	margin-left: 1000px;
+	color: white;
+}
+
+.links-span-7{
+	text-decoration: none;
+	position: fixed;
+	top: 590px;
+	font-size: 18px;
+	margin-left: 820px;
+	color: white;
+}
+
+.links-span-8{
+	text-decoration: none;
+	position: fixed;
+	top: 670px;
+	font-size: 18px;
+	margin-left: 970px;
+	color: white;
+}
+
+.links-span-9{
+	text-decoration: none;
+	position: fixed;
+	top: 320px;
+	font-size: 18px;
+	margin-left: 800px;
+	color: white;
+}
+
+.links-span-10{
+	text-decoration: none;
+	position: fixed;
+	top: 530px;
+	font-size: 18px;
+	margin-left: 1280px;
+	color: white;
+}
+
+.links-span-11{
+	text-decoration: none;
+	position: fixed;
+	top: 320px;
+	font-size: 18px;
+	margin-left: 1100px;
+	color: white;
+}
+
+.links-span-12{
+	text-decoration: none;
+	position: fixed;
+	top: 400px;
+	font-size: 18px;
+	margin-left: 600px;
+	color: white;
+}
+
+.caves-button16{
+	align-self: center;
+	margin-left: 950px;
+	margin-top: 650px;
+	justify-self: center;
+}
+
+.caves-button16{
+	align-self: center;
+	justify-self: center;
+	border: 0px solid;
+	background-color: rgba(24, 206, 0, 0.993);
+	border-radius: 5px;
+	height: 50px;
+	width: 100px;
+	cursor: pointer;
+	transition: 0.72s;
+}
+
+.caves-button16:hover{
+	transform: scale(1.04);
+	transition: 0.72s;
+}
+
+.caves-button16-link{
+	text-decoration: none;
+	align-self: center;
+	font-size: 120%;
+	color: rgb(255, 255, 255);
+}

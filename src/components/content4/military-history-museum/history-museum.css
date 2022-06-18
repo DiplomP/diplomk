@@ -1,0 +1,488 @@
+.museum-container{
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: 90% 10%;
+	margin-top: 2%;
+}
+
+.museum-container-all{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.museum1-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 30px;
+}
+
+.museum-text{
+	margin-top: 10%;
+	margin-top: 5px;
+	text-align: center;
+	justify-self: center;
+	align-self: center;
+	font-size: 135%;
+	overflow: scroll;
+	max-height: 600px;
+	border: 2px solid rgba(24, 206, 0, 0.993);
+	border-radius: 5px;
+}
+
+.museum-image{
+	align-self: center;
+	justify-self: center;
+	height: 100%;
+	width: 60%;
+}
+
+.museum-button-hidden{
+	visibility: hidden;
+}
+
+.museum-button-1{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	align-self: center;
+	justify-self: center;
+	text-decoration: none;
+	border: 0px solid;
+	background-color: rgba(24, 206, 0, 0.993);
+	color: white;
+	border-radius: 5px;
+	padding: 20px;
+	cursor: pointer;
+	transition: 0.72s;
+}
+
+.museum-button-2{
+	align-self: center;
+	justify-self: center;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	text-decoration: none;
+	border: 0px solid;
+	background-color: rgba(24, 206, 0, 0.993);
+	color: white;
+	border-radius: 5px;
+	padding: 20px;
+	cursor: pointer;
+	transition: 0.72s;
+}
+
+.museum-button-1:hover{
+	transform: scale(1.04);
+	transition: 0.72s;
+}
+
+.museum-button-2:hover{
+	transform: scale(1.04);
+	transition: 0.72s;
+}
+
+.museum-button-link{
+	display: grid;
+	text-decoration: none;
+	align-self: center;
+	font-size: 120%;
+	color: rgb(255, 255, 255);
+}
+
+.wrapper-11 {
+	height: 600px;
+	position: relative;
+	width: 700px;
+}
+
+.slider-11 {
+	background-color: rgb(10, 250, 230);
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.wrapper-11 > input {
+	display: none;
+}
+
+.slides-11 {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+}
+
+.slide1-11 { 
+	background: url("https://migrantocenter.ru/wp-content/uploads/2018/07/0_9d87e_8c402afb_XXL.jpg") center no-repeat; 
+}
+.slide2-11 {
+	 background: url("https://i0.wp.com/guruturizma.ru/wp-content/uploads/2018/11/Voenno-istoricheskiy-museum.jpg?w=960&ssl=1") center no-repeat; 
+}
+.slide3-11 {
+	 background: url("https://hocbongnga.com/wp-content/uploads/2018/11/0_9d8ce_4e841a2b_orig.jpg") center no-repeat; 
+}
+.slide4-11 {
+	 background: url("https://pbs.twimg.com/media/DZnxVPzW4AAUqCo.jpg:large") center no-repeat; 
+}
+.slide5-11 {
+	 background: url("https://triboona.ru/uploads/posts/2021-05/1621279451-7original.jpg") center no-repeat; 
+}
+
+.wrapper-11 .controls-11 {
+	left: 50%;
+	margin-left: -15%;
+	position: absolute;
+}
+
+.wrapper-11 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-11 label:after {
+	border: 2px solid #ddd;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-11 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.wrapper-11 label:hover, 
+#slide1-11:checked ~ .controls-11 label:nth-of-type(1),
+#slide2-11:checked ~ .controls-11 label:nth-of-type(2),
+#slide3-11:checked ~ .controls-11 label:nth-of-type(3),
+#slide4-11:checked ~ .controls-11 label:nth-of-type(4),
+#slide5-11:checked ~ .controls-11 label:nth-of-type(5) {
+	background: rgb(3, 65, 236);
+}
+
+.slides-11 {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slide1-11:checked ~ .slider-11 > .slide1-11,
+#slide2-11:checked ~ .slider-11 > .slide2-11,
+#slide3-11:checked ~ .slider-11 > .slide3-11,
+#slide4-11:checked ~ .slider-11 > .slide4-11,
+#slide5-11:checked ~ .slider-11 > .slide5-11 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+.wrapper-11-1 {
+	height: 600px;
+	position: relative;
+	width: 700px;
+}
+
+.slider-11-1 {
+	background-color: rgb(10, 250, 230);
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.wrapper-11-1 > input {
+	display: none;
+}
+
+.slides-11-1 {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+}
+
+.slide1-11-1 { 
+	background: url("https://avatars.mds.yandex.net/get-altay/2776652/2a00000173ce6412ef9ab8088fdb4aec9dd4/XXXL") center no-repeat; 
+}
+.slide2-11-1 {
+	 background: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/17/58/4d/caption.jpg?w=1200&h=1200&s=1") center no-repeat; 
+}
+.slide3-11-1 {
+	 background: url("https://img.tourister.ru/files/2/4/4/3/8/3/2/2/clones/870_588_fixedwidth.jpg") center no-repeat; 
+}
+.slide4-11-1 {
+	 background: url("http://www.gylymordasy.kz/wp-content/uploads/2021/01/image2_lifestylecityakademiya-nauk-768x461.jpeg") center no-repeat; 
+}
+.slide5-11-1 {
+	 background: url("https://locefoc.com/articles/Kazakhstan/almaty_museums_8/img5.jpg") center no-repeat; 
+}
+
+.wrapper-11-1 .controls-11-1 {
+	left: 50%;
+	margin-left: -15%;
+	position: absolute;
+}
+
+.wrapper-11-1 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-11-1 label:after {
+	border: 2px solid #ddd;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-11-1 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.wrapper-11-1 label:hover, 
+#slide1-11-1:checked ~ .controls-11-1 label:nth-of-type(1),
+#slide2-11-1:checked ~ .controls-11-1 label:nth-of-type(2),
+#slide3-11-1:checked ~ .controls-11-1 label:nth-of-type(3),
+#slide4-11-1:checked ~ .controls-11-1 label:nth-of-type(4),
+#slide5-11-1:checked ~ .controls-11-1 label:nth-of-type(5) {
+	background: rgb(3, 65, 236);
+}
+
+.slides-11-1 {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slide1-11-1:checked ~ .slider-11-1 > .slide1-11-1,
+#slide2-11-1:checked ~ .slider-11-1 > .slide2-11-1,
+#slide3-11-1:checked ~ .slider-11-1 > .slide3-11-1,
+#slide4-11-1:checked ~ .slider-11-1 > .slide4-11-1,
+#slide5-11-1:checked ~ .slider-11-1 > .slide5-11-1 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+.wrapper-11-2 {
+	height: 600px;
+	position: relative;
+	width: 700px;
+}
+
+.slider-11-2 {
+	background-color: rgb(10, 250, 230);
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.wrapper-11-2 > input {
+	display: none;
+}
+
+.slides-11-2 {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+}
+
+.slide1-11-2 { 
+	background: url("https://massaget.kz/userdata/uploads/u74645/1527582378_l.gif") center no-repeat; 
+}
+.slide2-11-2 {
+	 background: url("https://unison.kz/wp-content/uploads/2018/04/dost019.jpg") center no-repeat; 
+}
+.slide3-11-2 {
+	 background: url("https://i.pinimg.com/originals/b3/d2/41/b3d241d013c8c18565f262b7c41ab5e0.jpg") center no-repeat; 
+}
+.slide4-11-2 {
+	 background: url("https://lh6.googleusercontent.com/haJIj-LSyS7bsKTtWM0Dqc_9Gsh0RKXAJvWuksOFVz7t0kCreSZmBPck1pUaaF8QeuvLMICcwAgKCTKNt0s2i-j8Rbseg70o_otGF9AZ2DXDLN3I2vHG5jDUvbCFxw") center no-repeat; 
+}
+.slide5-11-2 {
+	 background: url("https://www.almaty-kazakhstan.net/wp-content/uploads/2012-07-07-12.43.56_07-07-2012.jpg") center no-repeat; 
+}
+
+.wrapper-11-2 .controls-11-2 {
+	left: 50%;
+	margin-left: -15%;
+	position: absolute;
+}
+
+.wrapper-11-2 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-11-2 label:after {
+	border: 2px solid #ddd;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-11-2 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.wrapper-11-2 label:hover, 
+#slide1-11-2:checked ~ .controls-11-2 label:nth-of-type(1),
+#slide2-11-2:checked ~ .controls-11-2 label:nth-of-type(2),
+#slide3-11-2:checked ~ .controls-11-2 label:nth-of-type(3),
+#slide4-11-2:checked ~ .controls-11-2 label:nth-of-type(4),
+#slide5-11-2:checked ~ .controls-11-2 label:nth-of-type(5) {
+	background: rgb(3, 65, 236);
+}
+
+.slides-11-2 {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slide1-11-2:checked ~ .slider-11-2 > .slide1-11-2,
+#slide2-11-2:checked ~ .slider-11-2 > .slide2-11-2,
+#slide3-11-2:checked ~ .slider-11-2 > .slide3-11-2,
+#slide4-11-2:checked ~ .slider-11-2 > .slide4-11-2,
+#slide5-11-2:checked ~ .slider-11-2 > .slide5-11-2 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}

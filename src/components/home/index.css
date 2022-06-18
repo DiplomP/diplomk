@@ -1,0 +1,154 @@
+.content-11 {
+	color: #000;
+	width: auto;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 20% 40% 40%;
+}
+
+.content-span{
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.h1 {
+	text-align: center;
+	padding-top: 2%;
+	color: blueviolet;
+}
+
+.text-btn1{
+	justify-self: center;
+	padding: 30px;
+	transition: 0.72s;
+	border-radius: 20px;
+	background-color: rgba(212, 202, 212, 0.61);
+	color: blueviolet;
+}
+.text-btn2{
+	justify-self: center;
+	padding: 30px;
+	transition: 0.72s;
+	border-radius: 20px;
+	background-color: rgba(212, 202, 212, 0.61);
+	color: blueviolet;
+}
+.text-btn3{
+	justify-self: center;
+	padding: 30px;
+	transition: 0.72s;
+	border-radius: 20px;
+	background-color: rgba(212, 202, 212, 0.61);
+	color: blueviolet;
+}
+.text-btn4{
+	justify-self: center;
+	padding: 30px;
+	transition: 0.72s;
+	border-radius: 20px;
+	background-color: rgba(212, 202, 212, 0.61);
+	color: blueviolet;
+}
+
+.text-btn1:hover{
+	padding: 35px;
+	transition: 0.72s;
+}
+.text-btn2:hover{
+	padding: 35px;
+	transition: 0.72s;
+}
+.text-btn3:hover{
+	padding: 35px;
+	transition: 0.72s;
+}
+.text-btn4:hover{
+	padding: 35px;
+	transition: 0.72s;
+}
+
+.content-menu {
+	transform: none;
+	display: grid;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	align-items: center;
+	width: 97%;
+	opacity: 0.7;
+	transition: 0.72s;
+	height: 97%;
+	background: url("https://www.voltaaomundo.pt/files/2020/02/destaque-4.jpg") center no-repeat;
+	cursor: pointer;
+}
+
+.content-menu-2 {
+	display: grid;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	align-items: center;
+	width: 97%;
+	opacity: 0.7;
+	transition: 0.72s;
+	height: 97%;
+	background: url("https://proprikol.ru/wp-content/uploads/2019/10/krasivye-kartinki-peshhery-22.jpg") center no-repeat;
+	cursor: pointer;
+}
+
+.content-menu-3 {
+	display: grid;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	align-items: center;
+	width: 97%;
+	opacity: 0.7;
+	transition: 0.72s;
+	height: 97%;
+	background: url("https://yandex-images.clstorage.net/9NfcP7370/c42175iGu/7gjO2ieCG3N3vi4V9AU-y-3eZfwIM0o5yz4RKc_vdBbwjX4p2s6-FNRTAwWcLibUGMibKfz2FG1dNGRK6k80m-JEloZX205nfrt7ONhgRs6cq0SxcWIiBOcORAzr91AL0DGSpGMPD_FBrt6ccENjjU284hzl-uHYTME5ClrmrSrmYGP7pqb_g8e2PvW1DY5PhP4ZJOS_tmxnqhnEu8Nkc5DJNjg7XyPVHSoqIESj-z2NdJOgdXoJ_YxhKYKCirFSthgPq96SN3sv9iZZ0XUSd3A-uSQMp_6QL7qpKLtfMCdoYeaAT7dPYdkiDnD85_9hFeQ_MK1WgQ30aRGWPnYd1qKcX_suWisXw9o21an90psk4qmgVBMGvP9mCVjrV2TPhAUupCuDU5nJstIYHP97HW2Eq_xRcjF5kLmJDv7uTTLu4K83srp3YzMOEoltddab_D5NkCxLYrBPjiUgU7c8l9T1_jArb89dxU5WKNQ3a41VnDf0-fJFmYShPVYq6r027tijE5IeC_-jQiaN3WWSczSynSD4Bw4cdzqVdDOb5Fsg2SJoW8czAdmuItwss4MpiZSH_F2uwSn8rREy0vYtLt6otw_eksdjM4qieTF9skcIprlEFPs-ZBtmydRDX2QL9EGiNLM7b-05avo8YHPf0e0YB7ThIsH9ABnpFiZihW7yLMOHHppPJysy8oGJNcb_EEadyOQD0lATXrG0xz-w08jR0qzzn-8FTdZGvGSjuylFQI9wTZ71-fxZBaaq4rGW_gwf695qqx9Dxp41PVmS8_AyZfBgB3oY4zJNkMNjUP9IaWYIN29rgbUy7iR8azd9kcxXCOle-WlcYaG6wk45trpY51eOKtuHy8b6vZmhEgOYYh1QHL_KXCc-2dQnOyxjEEniPNPv63lVbn4szJdX6QWsn5Bl9iF5fEUdosZWHWJqdN-7EqY7k5eO4lEViQZ_nN7pHDxHgoSXDsUwE--E") center no-repeat;
+	cursor: pointer;
+}
+
+.content-menu-4 {
+	display: grid;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	align-items: center;
+	width: 97%;
+	opacity: 0.7;
+	transition: 0.72s;
+	height: 97%;
+	background: url("https://cf.ppt-online.org/files/slide/z/zj7PVfHBInDt2eFd5GsKNOox1UTpm3h4MJYQZq/slide-27.jpg") center no-repeat;
+	cursor: pointer;
+}
+
+.content-menu-text{
+	text-transform: none;
+	text-decoration: none;
+	color: rgba(24, 206, 0, 0.993);
+	font-size: 150%;
+	font-weight: 1000;
+}
+
+
+.content-menu:hover{
+	opacity: 1;
+}
+
+.content-menu-2:hover{
+	opacity: 1;
+
+}
+
+.content-menu-3:hover{
+	opacity: 1;
+
+}
+
+.content-menu-4:hover{
+	opacity: 1;
+
+}

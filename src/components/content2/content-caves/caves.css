@@ -1,0 +1,189 @@
+.caves-container{
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: 90% 10%;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 30px;
+}
+
+.caves-text{
+	margin-top: 10%;
+	margin-top: 5px;
+	text-align: center;
+	justify-self: center;
+	align-self: center;
+	font-size: 135%;
+	overflow: scroll;
+	max-height: 600px;
+	border: 2px solid rgba(24, 206, 0, 0.993);
+	border-radius: 5px;
+}
+
+.caves-image{
+	 align-self: center;
+	 justify-self: center;
+	 height: 97%;
+	 width: 97%;
+}
+
+.caves-button{
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	align-self: center;
+	justify-self: center;
+	border: 0px solid;
+	background-color: rgba(24, 206, 0, 0.993);
+	border-radius: 5px;
+	height: 50px;
+	width: 100px;
+	cursor: pointer;
+	transition: 0.72s;
+}
+
+.caves-button:hover{
+	transform: scale(1.04);
+	transition: 0.72s;
+}
+
+.caves-button-link{
+	display: grid;
+	text-decoration: none;
+	align-self: center;
+	font-size: 120%;
+	color: rgb(255, 255, 255);
+}
+
+.wrapper-1 {
+	height: 600px;
+	margin: 80px auto 0;
+	position: relative;
+	width: 700px;
+}
+
+.slider-1 {
+	background-color: rgb(10, 250, 230);
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.wrapper-1 > input {
+	display: none;
+}
+
+.slides-1 {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+}
+
+.slide1-1 { 
+	background: url("https://images.vfl.ru/ii/1628738938/d3cdcf98/35468722_m.jpg") center no-repeat; 
+}
+.slide2-1 {
+	 background: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/de/ef/d3/getlstd-property-photo.jpg?w=1200&h=1200&s=1") center no-repeat; 
+}
+.slide3-1 {
+	 background: url("https://www.4vsar.ru/i/gallery/14029/big/137578.jpg") center no-repeat; 
+}
+.slide4-1 {
+	 background: url("https://avatars.mds.yandex.net/i?id=09cb394ba77c8514dd5c988625d710f4_l-4010175-images-thumbs&n=13") center no-repeat; 
+}
+.slide5-1 {
+	 background: url("https://time.kz/up_img/15913-5.jpg") center no-repeat; 
+}
+
+.wrapper-1 .controls-1 {
+	left: 50%;
+	margin-left: -15%;
+	position: absolute;
+}
+
+.wrapper-1 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-1 label:after {
+	border: 2px solid #ddd;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper-1 label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.wrapper-1 label:hover, 
+#slide1:checked ~ .controls-1 label:nth-of-type(1),
+#slide2:checked ~ .controls-1 label:nth-of-type(2),
+#slide3:checked ~ .controls-1 label:nth-of-type(3),
+#slide4:checked ~ .controls-1 label:nth-of-type(4),
+#slide5:checked ~ .controls-1 label:nth-of-type(5) {
+	background: rgb(3, 65, 236);
+}
+
+.slides-1 {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slide1-1:checked ~ .slider-1 > .slide1-1,
+#slide2-1:checked ~ .slider-1 > .slide2-1,
+#slide3-1:checked ~ .slider-1 > .slide3-1,
+#slide4-1:checked ~ .slider-1 > .slide4-1,
+#slide5-1:checked ~ .slider-1 > .slide5-1 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
